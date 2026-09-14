@@ -2,6 +2,10 @@
     --q-primary: #39A935;
 }
 
+.q-avatar img {
+    border: 3px solid var(--q-primary)
+}
+
 @media (max-width: 900px) {
     .hero-title-box {
         padding: 18px 22px !important;
