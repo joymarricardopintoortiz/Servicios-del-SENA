@@ -123,7 +123,7 @@
 }
 
 .q-page {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), url('../assets/Sena_-sangil.jpg');
+    background-image: url('../assets/Sena_-sangil.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -91,7 +91,7 @@
 }
 
 .q-page {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), url('https://github.com/joymarricardopintoortiz/fotos/blob/main/WhatsApp%20Image%202026-09-14%20at%2012.20.07%20PM.jpeg?raw=true');
+  background-image: url('https://github.com/joymarricardopintoortiz/fotos/blob/main/WhatsApp%20Image%202026-09-14%20at%2012.20.07%20PM.jpeg?raw=true');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
