@@ -56,7 +56,7 @@
         <q-card>
           <q-card-section class="text-center">
 
-            <q-avatar size="110px">
+            <q-avatar id="icono_perfil">
               <img src="https://github.com/joymarricardopintoortiz/fotos/blob/main/WhatsApp%20Image%202026-09-07%20at%2012.49.18%20PM.jpeg?raw=true">
             </q-avatar>
 

@@ -30,6 +30,36 @@
     <q-card class="q-mt-lg">
       <q-card-section>
         <div class="text-h5 text-primary">
+          Encargado de atención
+        </div>
+      </q-card-section>
+
+      <q-card-section class="row items-center q-col-gutter-lg">
+        <div class="col-12 col-md-3 text-center">
+          <q-avatar id="icono_perfil">
+            <img src="https://github.com/joymarricardopintoortiz/CENTROAGROTURISTICO/blob/main/WhatsApp%20Image%202026-09-11%20at%204.17.47%20PM%20(1).jpeg?raw=true">
+          </q-avatar>
+        </div>
+
+        <div class="col-12 col-md-9">
+          <div class="text-h6">
+            Luis Carlos Reina
+          </div>
+
+          <div class="text-subtitle1">
+            Coordinador Académico
+          </div>
+
+          <div class="q-mt-sm">
+            ✉ lreinas@sena.edu.com
+          </div>
+        </div>
+      </q-card-section>
+    </q-card>
+
+    <q-card class="q-mt-lg">
+      <q-card-section>
+        <div class="text-h5 text-primary">
           Horarios de atención
         </div>
       </q-card-section>
@@ -51,36 +81,6 @@
         </div>
         <div class="text-body1 q-mt-sm">
           +57 3166783027
-        </div>
-      </q-card-section>
-    </q-card>
-
-    <q-card class="q-mt-lg">
-      <q-card-section>
-        <div class="text-h5 text-primary">
-          Encargado de atención
-        </div>
-      </q-card-section>
-
-      <q-card-section class="row items-center q-col-gutter-lg">
-        <div class="col-12 col-md-3 text-center">
-          <q-avatar size="120px">
-            <img src="https://github.com/joymarricardopintoortiz/CENTROAGROTURISTICO/blob/main/WhatsApp%20Image%202026-09-11%20at%204.17.47%20PM%20(1).jpeg?raw=true">
-          </q-avatar>
-        </div>
-
-        <div class="col-12 col-md-9">
-          <div class="text-h6">
-            Luis Carlos Reina
-          </div>
-
-          <div class="text-subtitle1">
-            Coordinador Académico
-          </div>
-
-          <div class="q-mt-sm">
-            ✉ lreinas@sena.edu.com
-          </div>
         </div>
       </q-card-section>
     </q-card>
