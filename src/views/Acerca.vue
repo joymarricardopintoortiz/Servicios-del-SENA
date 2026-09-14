@@ -19,16 +19,30 @@
         </div>
 
         <p class="text-body1 q-mt-md">
-          Nuestro SENA cuenta con diferentes servicios destinados
-          a apoyar el bienestar, aprendizaje y desarrollo de toda
-          la comunidad. Esta aplicación fue diseñada para facilitar
-          el acceso a la información de cada servicio.
+          El Centro Agroturistico del SENA, ubicado en San Gil, Santander,
+          es una sede enfocada en la formacion tecnica y tecnologica en
+          areas agropecuarias y turisticas. Contamos con espacios diseñados
+          para que los aprendices desarrollen competencias practicas en un
+          entorno rural real, combinando el aprendizaje academico con
+          proyectos productivos que fortalecen la region.
+        </p>
+
+        <p class="text-body1 q-mt-md">
+          Nuestro centro cuenta con diferentes servicios destinados a
+          apoyar el bienestar, la salud, el aprendizaje y el desarrollo
+          integral de toda la comunidad educativa. Esta aplicación fue
+          diseñada para facilitar el acceso a la informacion de cada
+          servicio, permitiendo a los aprendices, instructores y
+          visitantes conocer de forma rapida y clara lo que ofrece
+          cada area del centro.
         </p>
 
         <p class="text-body1">
-          Desde esta plataforma los usuarios pueden consultar horarios,
-          información de contacto, servicios disponibles y conocer
-          a los responsables de cada área.
+          Desde esta plataforma los usuarios pueden consultar horarios
+          de atencion, informacion de contacto, ubicacion y descripcion
+          de cada servicio, asi como conocer a los encargados responsables
+          de brindar atencion en enfermeria, bienestar, biblioteca,
+          cafeteria y coordinacion academica.
         </p>
 
       </q-card-section>

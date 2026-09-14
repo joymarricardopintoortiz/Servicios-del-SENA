@@ -61,6 +61,57 @@
                     </q-card-section>
                 </q-card>
             </div>
+
+            <div class="col-12 col-md-4">
+                <q-card class="service-card info-card">
+                    <q-card-section class="text-center">
+                        <q-icon name="location_on" color="primary" size="40px"/>
+                        <div class="text-h6 text-primary q-mt-sm">
+                            Nuestra ubicacion
+                        </div>
+                        <p class="text-body2 q-mt-sm text-left">
+                            Estamos ubicados en Cl. 22 #9 - 82, San Gil, Santander
+                            en un entorno rural rodeado de naturaleza, ideal para la
+                            practica agropecuaria y el desarrollo de proyectos de
+                            turismo sostenible con nuestros aprendices.
+                        </p>
+                    </q-card-section>
+                </q-card>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <q-card class="service-card info-card">
+                    <q-card-section class="text-center">
+                        <q-icon name="school" color="primary" size="40px"/>
+                        <div class="text-h6 text-primary q-mt-sm">
+                            Programas de formacion
+                        </div>
+                        <p class="text-body2 q-mt-sm text-left">
+                            Ofrecemos programas tecnicos y tecnologicos enfocados en
+                            produccion agropecuaria, turismo rural y sostenibilidad
+                            ambiental, combinando teoria y practica en escenarios
+                            reales del campo.
+                        </p>
+                    </q-card-section>
+                </q-card>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <q-card class="service-card info-card">
+                    <q-card-section class="text-center">
+                        <q-icon name="call" color="primary" size="40px"/>
+                        <div class="text-h6 text-primary q-mt-sm">
+                            Contactanos
+                        </div>
+                        <p class="text-body2 q-mt-sm text-left">
+                            Si tienes dudas sobre nuestros servicios, horarios de
+                            atencion o programas de formacion, comunicate con
+                            nosotros a traves de coordinacion, visita cada
+                            seccion del menu para mas informacion o llama (607) 7248113.
+                        </p>
+                    </q-card-section>
+                </q-card>
+            </div>
         </div>
     </q-page>
 </template>
