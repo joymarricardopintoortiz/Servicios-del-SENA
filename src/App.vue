@@ -62,7 +62,7 @@ const links = [
 
     <q-page-container><router-view /></q-page-container>
     <q-footer class="bg-primary text-white text-center q-pa-md">
-      Servicios del SENA ©️ 2026
+      SENA - Centro Agroturistico ©️ 2026
     </q-footer>
   </q-layout>
 </template>

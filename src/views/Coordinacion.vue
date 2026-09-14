@@ -14,14 +14,16 @@
       </div>
 
       <p class="text-body1 q-mt-md">
-        Se apoya el tema de novedades de los aprendices, como retiros,
-        deserción y trámite de aplazamientos, correspondientes a la
-        formación titulada del SENA. Asimismo, se brinda apoyo en la
-        programación de los instructores para la formación y en la
-        logística de los ambientes, garantizando que estos se encuentren
-        en óptimas condiciones para el desarrollo de las actividades
-        académicas. De esta manera, se contribuye al buen funcionamiento
-        del proceso formativo dentro del centro.
+        La Coordinación se apoya en el tema de novedades de los aprendices,
+        como retiros, deserción y trámite de aplazamientos, correspondientes
+        a la formación titulada del SENA. Asimismo, se brinda apoyo en la
+        programación de los instructores para la formación y en la logística
+        de los ambientes, garantizando que estos se encuentren en óptimas
+        condiciones para el desarrollo de las actividades académicas. Es el
+        área encargada de articular la comunicación entre aprendices,
+        instructores y el centro, resolviendo situaciones administrativas
+        propias del proceso formativo. De esta manera, se contribuye al buen
+        funcionamiento del proceso formativo dentro del centro.
       </p>
     </div>
 

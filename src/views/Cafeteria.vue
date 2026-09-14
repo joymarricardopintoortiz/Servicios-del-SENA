@@ -14,12 +14,16 @@
       </div>
 
       <p class="text-body1 q-mt-md">
-        La Cafetería ofrece alimentos y bebidas para los integrantes de la
-        comunidad. Cuenta con un espacio cómodo para descansar, compartir
-        y disfrutar de diferentes opciones durante las jornadas académicas
-        y laborales. Además, busca promover hábitos de alimentación
-        saludable y momentos de esparcimiento que contribuyan al bienestar
-        de aprendices y funcionarios a lo largo de su jornada diaria.
+        La Cafetería del Centro Agroturístico ofrece alimentos y bebidas para
+        todos los integrantes de la comunidad educativa. Cuenta con un espacio
+        cómodo y amplio para descansar, compartir y disfrutar de diferentes
+        opciones de menú durante las jornadas académicas y laborales. El
+        servicio está pensado para atender tanto a aprendices como a
+        instructores y funcionarios, garantizando variedad, calidad e higiene
+        en cada uno de los productos ofrecidos. Además, busca promover hábitos
+        de alimentación saludable y momentos de esparcimiento que contribuyan
+        al bienestar físico y emocional de toda la comunidad a lo largo de su
+        jornada diaria.
       </p>
     </div>
 

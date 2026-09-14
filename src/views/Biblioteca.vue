@@ -14,14 +14,17 @@
       </div>
 
       <p class="text-body1 q-mt-md">
-        La Biblioteca ofrece consultas en sala y préstamos a domicilio, así
-        como préstamo interbibliotecario (PIB) para ampliar el acceso a
-        material bibliográfico. Además, brinda talleres de lectura,
-        capacitaciones y acceso a TIC para el fortalecimiento de
+        La Biblioteca del Centro Agroturístico ofrece consultas en sala y
+        préstamos a domicilio, así como préstamo interbibliotecario (PIB) para
+        ampliar el acceso a material bibliográfico. Es un espacio pensado para
+        el estudio individual y grupal, donde los aprendices pueden apoyarse en
+        la investigación de sus proyectos formativos. Además, brinda talleres
+        de lectura, capacitaciones y acceso a TIC para el fortalecimiento de
         competencias digitales. El equipo también ofrece asesorías en la
-        búsqueda de información y en el uso adecuado del catálogo
-        bibliográfico, acompañando a los aprendices en su proceso de
-        formación e investigación.
+        búsqueda de información y en el uso adecuado del catálogo bibliográfico,
+        acompañando a los aprendices en su proceso de formación e investigación.
+        Contamos con un ambiente cómodo y organizado, ideal para quienes buscan
+        concentración y buen material de consulta.
       </p>
     </div>
 
