@@ -47,6 +47,17 @@
     <q-card class="q-mt-lg">
       <q-card-section>
         <div class="text-h5 text-primary">
+          📞 Contacto
+        </div>
+        <div class="text-body1 q-mt-sm">
+          +57 3166783027
+        </div>
+      </q-card-section>
+    </q-card>
+
+    <q-card class="q-mt-lg">
+      <q-card-section>
+        <div class="text-h5 text-primary">
           Encargado de atención
         </div>
       </q-card-section>
