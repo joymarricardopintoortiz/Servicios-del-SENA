@@ -4,7 +4,7 @@
     <q-img
       src="https://github.com/joymarricardopintoortiz/fotos/blob/main/WhatsApp%20Image%202026-09-04%20at%204.47.17%20PM.jpeg?raw=true"
       class="banner"
-      :ratio="21/9"
+      :ratio="30/9"
       fit="cover"
     />
 
@@ -14,77 +14,97 @@
       </div>
 
       <p class="text-body1 q-mt-md">
-        La Biblioteca del Centro Agroturístico ofrece consultas en sala y
-        préstamos a domicilio, así como préstamo interbibliotecario (PIB) para
-        ampliar el acceso a material bibliográfico. Es un espacio pensado para
-        el estudio individual y grupal, donde los aprendices pueden apoyarse en
-        la investigación de sus proyectos formativos. Además, brinda talleres
-        de lectura, capacitaciones y acceso a TIC para el fortalecimiento de
-        competencias digitales. El equipo también ofrece asesorías en la
-        búsqueda de información y en el uso adecuado del catálogo bibliográfico,
-        acompañando a los aprendices en su proceso de formación e investigación.
-        Contamos con un ambiente cómodo y organizado, ideal para quienes buscan
-        concentración y buen material de consulta.
+        La Biblioteca del Centro Agroturístico del SENA ofrece servicios de
+        consulta, préstamo de libros y acceso a recursos digitales para la comunidad académica.
+        Cuenta con una colección especializada en áreas agropecuarias, turismo, gestión y tecnología,
+        así como espacios silenciosos para el estudio individual y la investigación. Dispone de
+        equipos informáticos y conexión a internet para la búsqueda en bases de datos institucionales.
+        Asimismo, brinda orientación e inducción en el manejo de catálogos en línea y repositorios.
+        El espacio está acondicionado con puestos de lectura cómodos e iluminados para el desarrollo
+        de actividades formativas. Se promueven talleres de competencia informacional y promoción
+        de la lectura. Su propósito principal es respaldar los procesos de aprendizaje e innovación,
+        proporcionando información actualizada y un entorno propicio para la gestión del conocimiento
       </p>
     </div>
 
-    <q-card class="q-mt-lg">
-      <q-card-section>
-        <div class="text-h5 text-primary">
-          Encargado de atención
-        </div>
-      </q-card-section>
+    <div class="row q-col-gutter-lg q-mt-lg">
+      <div class="col-12 col-md-6">
+        <q-card bordered class="shadow-2">
+          <q-card-section>
+            <div class="text-h5 text-primary">
+              Encargado de atención
+            </div>
+          </q-card-section>
 
-      <q-card-section class="row items-center q-col-gutter-lg">
-        <div class="col-12 col-md-3 text-center">
-          <q-avatar id="icono_perfil">
-            <img src="https://github.com/joymarricardopintoortiz/CENTROAGROTURISTICO/blob/main/WhatsApp%20Image%202026-09-11%20at%204.17.48%20PM%20(1).jpeg?raw=true">
-          </q-avatar>
-        </div>
+          <q-card-section class="row items-center q-gutter-md">
+            <q-avatar id="icono_perfil" square>
+              <img src="https://github.com/joymarricardopintoortiz/CENTROAGROTURISTICO/blob/main/WhatsApp%20Image%202026-09-11%20at%204.17.48%20PM%20(1).jpeg?raw=true">
+            </q-avatar>
 
-        <div class="col-12 col-md-9">
-          <div class="text-h6">
-             Yudith Milagros Martínez Bautista
-          </div>
+            <div class="col">
+              <div class="text-h6">
+                Yudith Milagros Martínez Bautista
+              </div>
 
-          <div class="text-subtitle1">
-            Bibliotecaria
-          </div>
+              <div class="text-subtitle1">
+                Bibliotecaria
+              </div>
 
-          <div class="q-mt-sm">
-            ✉ ymmartinez@sena.edu.co
-          </div>
-        </div>
-      </q-card-section>
-    </q-card>
+              <div class="q-mt-sm">
+                ✉ ymmartinez@sena.edu.co
+              </div>
+            </div>
+          </q-card-section>
 
-    <q-card class="q-mt-lg">
-      <q-card-section>
-        <div class="text-h5 text-primary">
-          Horarios de atención
-        </div>
-      </q-card-section>
+          <q-card-section>
+            <q-card bordered flat>
+              <q-item>
+                <q-item-section avatar>
+                  <q-icon name="phone" color="primary" size="md" />
+                </q-item-section>
 
-      <q-card-section>
-        <q-list bordered separator>
-          <q-item v-for="dia in horarios" :key="dia.dia">
-            <q-item-section>{{ dia.dia }}</q-item-section>
-            <q-item-section side>{{ dia.hora }}</q-item-section>
-          </q-item>
-        </q-list>
-      </q-card-section>
-    </q-card>
+                <q-item-section>
+                  <q-item-label caption>
+                    Teléfono
+                  </q-item-label>
+                  <q-item-label class="text-h6">
+                    +57 3125848032
+                  </q-item-label>
+                </q-item-section>
+              </q-item>
+            </q-card>
+          </q-card-section>
+        </q-card>
+      </div>
 
-    <q-card class="q-mt-lg">
-      <q-card-section>
-        <div class="text-h5 text-primary">
-          📞 Contacto
-        </div>
-        <div class="text-body1 q-mt-sm">
-          +57 3125848032
-        </div>
-      </q-card-section>
-    </q-card>
+      <div class="col-12 col-md-6">
+        <q-card bordered class="shadow-2">
+          <q-card-section>
+            <div class="text-h5 text-primary">
+              Horarios de atención
+            </div>
+          </q-card-section>
+
+          <q-card-section>
+            <q-list separator>
+              <q-item v-for="dia in horarios" :key="dia.dia">
+                <q-item-section>
+                  <q-item-label class="text-weight-medium">
+                    {{ dia.dia }}
+                  </q-item-label>
+                </q-item-section>
+
+                <q-item-section side>
+                  <q-chip color="primary" text-color="white" dense square>
+                    {{ dia.hora }}
+                  </q-chip>
+                </q-item-section>
+              </q-item>
+            </q-list>
+          </q-card-section>
+        </q-card>
+      </div>
+    </div>
 
   </q-page>
 </template>
@@ -101,8 +121,8 @@ const horarios = [
 
 <style scoped>
 .banner {
-  max-width: 1100px;
-  margin: 0 auto;
-  border-radius: 12px;
+    margin: -24px -24px 0 -24px;
+    width: calc(100% + 48px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 </style>

@@ -9,6 +9,14 @@
             </p>
         </div>
 
+        <q-img
+        src="../assets/Sena_-sangil.jpg"
+        class="hero-banner"
+        :ratio="30/9"
+        fit="cover"></q-img>
+
+        <br><br>
+
         <div class="row q-col-gutter-lg">
             <div class="col-12 col-md-4">
                 <q-card class="service-card info-card">
@@ -117,16 +125,15 @@
 </template>
 
 <style scoped>
+.hero-banner {
+    margin: -24px -24px 0 -24px;
+    width: calc(100% + 48px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
 .service-card {
     height: 100%;
     border-radius: 15px;
-}
-
-.q-page {
-    background-image: url('../assets/Sena_-sangil.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .hero-title-box {

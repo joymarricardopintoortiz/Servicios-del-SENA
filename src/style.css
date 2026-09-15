@@ -7,88 +7,23 @@
 }
 
 #icono_perfil{
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 180px;
 }
 
 .q-drawer__content {
     overscroll-behavior: contain;
 }
 
-@media (max-width: 900px) {
-    .hero-title-box {
-        padding: 18px 22px !important;
-    }
-
-    .text-h2 {
-        font-size: 2.1rem !important;
-    }
-
-    .text-h3 {
-        font-size: 1.8rem !important;
-    }
-
-    .banner {
-        max-width: 100% !important;
-        border-radius: 8px !important;
-    }
-
-    .q-page {
-        background-attachment: scroll !important;
-    }
+.grid-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
 }
 
-@media (max-width: 600px) {
-    .hero-title-box {
-        padding: 14px 16px !important;
-        border-radius: 12px !important;
-    }
-
-    .text-h2 {
-        font-size: 1.6rem !important;
-    }
-
-    .text-h3 {
-        font-size: 1.4rem !important;
-    }
-
-    .text-h5 {
-        font-size: 1.1rem !important;
-    }
-
-    .text-h6 {
-        font-size: 1rem !important;
-    }
-
-    p, .text-body1, .text-body2 {
-        font-size: 0.9rem !important;
-        line-height: 1.55 !important;
-    }
-
-    .info-card .text-h6 {
-        font-size: 1.05rem !important;
-    }
-}
-
-@media (max-width: 300px) {
-    .hero-title-box {
-        padding: 10px 12px !important;
-    }
-
-    .text-h2 {
-        font-size: 1.25rem !important;
-    }
-
-    .text-h3 {
-        font-size: 1.1rem !important;
-    }
-
-    p, .text-body1, .text-body2 {
-        font-size: 0.82rem !important;
-    }
-
-    .q-avatar {
-        width: 80px !important;
-        height: 80px !important;
-    }
+.info-box {
+    border-radius: 14px;
+    border-top: 5px solid var(--q-primary);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }

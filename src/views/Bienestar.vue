@@ -4,7 +4,7 @@
         <q-img
         src="https://github.com/joymarricardopintoortiz/fotos/blob/main/WhatsApp%20Image%202026-09-04%20at%204.47.16%20PM.jpeg?raw=true"
         class="banner"
-        :ratio="21/9"
+        :ratio="30/9"
         fit="cover"
         />
 
@@ -29,68 +29,96 @@
             </p>
         </div>
 
-        <q-card class="q-mt-lg">
-            <q-card-section>
-                <div class="text-h5 text-primary">
-                    Encargado de atencion
-                </div>
-            </q-card-section>
+        <div class="row q-col-gutter-lg q-mt-lg">
+            <div class="col-12 col-md-6">
+                <q-card bordered class="shadow-2">
+                    <q-card-section>
+                        <div class="text-h5 text-primary">
+                            Encargado de atención
+                        </div>
+                    </q-card-section>
 
-            <q-card-section class="row items-center q-col-gutter-lg">
-                <div class="col-12 col-md-3 text-center">
-                    <q-avatar id="icono_perfil">
-                        <img src="https://github.com/joymarricardopintoortiz/CENTROAGROTURISTICO/blob/main/WhatsApp%20Image%202026-09-11%20at%204.17.47%20PM.jpeg?raw=true">
-                    </q-avatar>
-                </div>
+                    <q-card-section class="row items-center q-gutter-md">
+                        <q-avatar id="icono_perfil" square>
+                            <img src="https://github.com/joymarricardopintoortiz/CENTROAGROTURISTICO/blob/main/WhatsApp%20Image%202026-09-11%20at%204.17.47%20PM.jpeg?raw=true">
+                        </q-avatar>
 
-                <div class="col-12 col-md-9">
-                    <div class="text-h6">
-                        María Delea Arenas Mejía
-                    </div>
-                    <div class="text-subtitle1">
-                        Líder de Bienestar al Aprendiz
-                    </div>
-                    <div class="q-mt-sm">
-                        ✉ mdarenas@sena.edu.com
-                    </div>
-                </div>
-            </q-card-section>
-        </q-card>
-
-        <q-card class="q-mt-lg">
-            <q-card-section>
-                <div class="text-h5 text-primary">
-                    Horarios de atencion
-                </div>
-            </q-card-section>
-
-            <q-card-section>
-                <q-list bordered separator>
-                    <q-item v-for="servicio in horarios" :key="servicio.nombre">
-                        <q-item-section>
-                            <q-item-label>{{ servicio.nombre }}</q-item-label>
-                            <q-item-label caption>{{ servicio.dias }}</q-item-label>
-                        </q-item-section>
-                        <q-item-section side>
-                            <div v-for="(jornada, i) in servicio.hora" :key="i">
-                                {{ jornada }}
+                        <div class="col">
+                            <div class="text-h6">
+                                María Delea Arenas Mejía
                             </div>
-                        </q-item-section>
-                    </q-item>
-                </q-list>
-            </q-card-section>
-        </q-card>
 
-        <q-card class="q-mt-lg">
-            <q-card-section>
-                <div class="text-h5 text-primary">
-                    📞 Contacto
-                </div>
-                <div class="text-body1 q-mt-sm">
-                    +57 3176377670
-                </div>
-            </q-card-section>
-        </q-card>
+                            <div class="text-subtitle1">
+                                Líder de Bienestar al Aprendiz
+                            </div>
+
+                            <div class="q-mt-sm">
+                                ✉ mdarenas@sena.edu.com
+                            </div>
+                        </div>
+                    </q-card-section>
+
+                    <q-card-section>
+                        <q-card bordered flat>
+                            <q-item>
+                                <q-item-section avatar>
+                                    <q-icon name="phone" color="primary" size="md" />
+                                </q-item-section>
+
+                                <q-item-section>
+                                    <q-item-label caption>
+                                        Teléfono
+                                    </q-item-label>
+                                    <q-item-label class="text-h6">
+                                        +57 3176377670
+                                    </q-item-label>
+                                </q-item-section>
+                            </q-item>
+                        </q-card>
+                    </q-card-section>
+                </q-card>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <q-card bordered class="shadow-2">
+                    <q-card-section>
+                        <div class="text-h5 text-primary">
+                            Horarios de atención
+                        </div>
+                    </q-card-section>
+
+                    <q-card-section>
+                        <q-list separator>
+                            <q-item v-for="servicio in horarios" :key="servicio.nombre">
+                                <q-item-section>
+                                    <q-item-label class="text-weight-medium">
+                                        {{ servicio.nombre }}
+                                    </q-item-label>
+                                    <q-item-label caption>
+                                        {{ servicio.dias }}
+                                    </q-item-label>
+                                </q-item-section>
+
+                                <q-item-section side>
+                                    <div class="row q-gutter-xs justify-end">
+                                        <q-chip
+                                            v-for="(jornada, i) in servicio.hora"
+                                            :key="i"
+                                            color="primary"
+                                            text-color="white"
+                                            dense
+                                            square
+                                        >
+                                            {{ jornada }}
+                                        </q-chip>
+                                    </div>
+                                </q-item-section>
+                            </q-item>
+                        </q-list>
+                    </q-card-section>
+                </q-card>
+            </div>
+        </div>
 
     </q-page>
 </template>
@@ -122,8 +150,8 @@ const horarios = [
 
 <style scoped>
 .banner {
-    max-width: 1100px;
-    margin: 0 auto;
-    border-radius: 12px;
+    margin: -24px -24px 0 -24px;
+    width: calc(100% + 48px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 </style>

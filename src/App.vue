@@ -31,11 +31,14 @@ const links = [
           class="q-mr-sm"
           @click="toggleLeftDrawer"
         />
-        <q-toolbar-title>Servicios del SENA</q-toolbar-title>
+        <q-avatar square size="50px" class="q-mr-sm">
+          <img src="https://github.com/joymarricardopintoortiz/CENTROAGROTURISTICO/blob/main/Gemini_Generated_Image_49hzlb49hzlb49hz-removebg-preview.png?raw=true">
+        </q-avatar>
+        <q-toolbar-title>SENA CAT</q-toolbar-title>
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered side="left">
+    <q-drawer v-model="leftDrawerOpen" bordered side="left">
       <q-list>
         <q-item-label header class="text-primary text-weight-bold">
           Servicios

@@ -4,7 +4,7 @@
     <q-img
       src="https://github.com/joymarricardopintoortiz/fotos/blob/main/WhatsApp%20Image%202026-09-04%20at%205.14.12%20PM.jpeg?raw=true"
       class="banner"
-      :ratio="21/9"
+      :ratio="30/9"
       fit="cover"
     />
 
@@ -14,78 +14,110 @@
       </div>
 
       <p class="text-body1 q-mt-md">
-        Aquí se ofrecen todos los servicios de promoción y prevención de
-        enfermedades, así como atención básica en primeros auxilios para
-        la comunidad educativa. El servicio está disponible para brindar
-        orientación en salud, atención oportuna ante emergencias menores
-        y seguimiento a necesidades básicas de bienestar físico. Nuestro
-        objetivo es acompañar a los aprendices y funcionarios durante su
-        permanencia en las instalaciones, garantizando un espacio seguro
-        y de apoyo ante cualquier eventualidad de salud.
+        En un centro donde los aprendices pasan largas jornadas entre
+        cultivos, animales, cocinas de práctica y talleres, tener un
+        punto de enfermería cerca no es un detalle menor. Aquí se
+        atienden desde un corte con una herramienta de campo hasta un
+        mareo por el sol después de una jornada larga en los
+        invernaderos o en las zonas de producción. También se hace
+        seguimiento a quienes manejan alguna condición de salud previa
+        y necesitan que alguien esté pendiente durante sus prácticas.
+        El servicio no se limita a la urgencia: incluye orientación
+        sobre autocuidado, prevención de accidentes propios del trabajo
+        agropecuario y turístico, y un espacio de confianza para
+        resolver dudas de salud sin tener que salir del centro. La idea
+        es simple, que ningún aprendiz o funcionario sienta que está
+        solo si algo pasa mientras aprende su oficio.
       </p>
     </div>
 
-    <q-card class="q-mt-lg">
-      <q-card-section>
-        <div class="text-h5 text-primary">
-          Encargado de atención
-        </div>
-      </q-card-section>
+    <div class="row q-col-gutter-lg q-mt-lg">
+      <div class="col-12 col-md-6">
+        <q-card bordered class="shadow-2">
+          <q-card-section>
+            <div class="text-h5 text-primary">
+              Encargado de atención
+            </div>
+          </q-card-section>
 
-      <q-card-section class="row items-center q-col-gutter-lg">
-        <div class="col-12 col-md-3 text-center">
-          <q-avatar id="icono_perfil">
-            <img src="https://github.com/joymarricardopintoortiz/CENTROAGROTURISTICO/blob/main/WhatsApp%20Image%202026-09-11%20at%204.17.48%20PM%20(2).jpeg?raw=true">
-          </q-avatar>
-        </div>
+          <q-card-section class="row items-center q-gutter-md">
+            <q-avatar id="icono_perfil" square>
+              <img src="https://github.com/joymarricardopintoortiz/CENTROAGROTURISTICO/blob/main/WhatsApp%20Image%202026-09-11%20at%204.17.48%20PM%20(2).jpeg?raw=true">
+            </q-avatar>
 
-        <div class="col-12 col-md-9">
-          <div class="text-h6">
-            María Fernanda Gómez Reyes 
-          </div>
-
-          <div class="text-subtitle1">
-            Enfermera
-          </div>
-
-          <div class="q-mt-sm">
-            ✉ Mafecita1118@gmail.com
-          </div>
-        </div>
-      </q-card-section>
-    </q-card>
-
-    <q-card class="q-mt-lg">
-      <q-card-section>
-        <div class="text-h5 text-primary">
-          Horarios de atención
-        </div>
-      </q-card-section>
-
-      <q-card-section>
-        <q-list bordered separator>
-          <q-item v-for="dia in horarios" :key="dia.dia">
-            <q-item-section>{{ dia.dia }}</q-item-section>
-            <q-item-section side>
-              <div v-for="(jornada, i) in dia.hora" :key="i">
-                {{ jornada }}
+            <div class="col">
+              <div class="text-h6">
+                María Fernanda Gómez Reyes
               </div>
-            </q-item-section>
-          </q-item>
-        </q-list>
-      </q-card-section>
-    </q-card>
 
-    <q-card class="q-mt-lg">
-      <q-card-section>
-        <div class="text-h5 text-primary">
-          📞 Contacto
-        </div>
-        <div class="text-body1 q-mt-sm">
-          +57 32114153995
-        </div>
-      </q-card-section>
-    </q-card>
+              <div class="text-subtitle1">
+                Enfermera
+              </div>
+
+              <div class="q-mt-sm">
+                ✉ Mafecita1118@gmail.com
+              </div>
+            </div>
+          </q-card-section>
+
+          <q-card-section>
+            <q-card bordered flat>
+              <q-item>
+                <q-item-section avatar>
+                  <q-icon name="phone" color="primary" size="md" />
+                </q-item-section>
+
+                <q-item-section>
+                  <q-item-label caption>
+                    Teléfono
+                  </q-item-label>
+                  <q-item-label class="text-h6">
+                    +57 32114153995
+                  </q-item-label>
+                </q-item-section>
+              </q-item>
+            </q-card>
+          </q-card-section>
+        </q-card>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <q-card bordered class="shadow-2">
+          <q-card-section>
+            <div class="text-h5 text-primary">
+              Horarios de atención
+            </div>
+          </q-card-section>
+
+          <q-card-section>
+            <q-list separator>
+              <q-item v-for="dia in horarios" :key="dia.dia">
+                <q-item-section>
+                  <q-item-label class="text-weight-medium">
+                    {{ dia.dia }}
+                  </q-item-label>
+                </q-item-section>
+
+                <q-item-section side>
+                  <div class="row q-gutter-xs justify-end">
+                    <q-chip
+                      v-for="(jornada, i) in dia.hora"
+                      :key="i"
+                      color="primary"
+                      text-color="white"
+                      dense
+                      square
+                    >
+                      {{ jornada }}
+                    </q-chip>
+                  </div>
+                </q-item-section>
+              </q-item>
+            </q-list>
+          </q-card-section>
+        </q-card>
+      </div>
+    </div>
 
   </q-page>
 </template>
@@ -102,8 +134,8 @@ const horarios = [
 
 <style scoped>
 .banner {
-  max-width: 1100px;
-  margin: 0 auto;
-  border-radius: 12px;
+    margin: -24px -24px 0 -24px;
+    width: calc(100% + 48px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 </style>
